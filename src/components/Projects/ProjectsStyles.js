@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
+  /* width:40rem;
+  height:25rem; */
   object-fit: cover;
   overflow: hidden;
 `
@@ -66,8 +68,11 @@ export const Intro = styled.div`
 `;
 
 
+// height prop in CardInfo has been fixed to achieve horizontal align.
+// needs editorial touch up to avoid unnecessary gap under text.
 export const CardInfo = styled.p`
   width: 100%;
+  height: 25rem;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
