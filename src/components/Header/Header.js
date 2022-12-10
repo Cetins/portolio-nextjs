@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillMediumCircle } from 'react-icons/ai';
+import { FaBlog } from 'react-icons/fa';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -10,7 +11,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem"/> <Span>Cetin S</Span>
         </a>
       </Link>
     </Div1>
@@ -32,14 +33,14 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons href='https://github.com/Cetins'>
         <AiFillGithub size="3rem"/>
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
+      <SocialIcons href='https://linkedin.com/in/cetins'>
         <AiFillLinkedin size="3rem"/>
       </SocialIcons>
-      <SocialIcons href='https://instagram.com'>
-        <AiFillInstagram size="3rem"/>
+      <SocialIcons href='https://medium.com/@cetins'>
+        <AiFillMediumCircle size="3rem"/>
       </SocialIcons>
     </Div3>
   </Container>
