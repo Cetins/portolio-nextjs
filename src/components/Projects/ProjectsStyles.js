@@ -99,14 +99,16 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
+background: #13ADC7;
+border-radius: 2rem;
+width: 10rem;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  background: #945DD6;
 }
 `;
+
+//13ADC7 945DD6
 
 export const TagList = styled.ul`
 display: flex;
