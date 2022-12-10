@@ -52,11 +52,13 @@ export const HeaderThree = styled.h3`
 `;
 
 export const Hr = styled.hr`
-  width: 50px;
+  width: 10rem;
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: ${(props) => props.colorAlt ? 
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 `;
 
 export const Intro = styled.div`
@@ -68,7 +70,6 @@ export const Intro = styled.div`
   font-style: italic;
   line-height: 18px;
 `;
-
 
 // height prop in CardInfo has been fixed to achieve horizontal align.
 // needs editorial touch up to avoid unnecessary gap under text.
@@ -85,7 +86,6 @@ export const CardInfo = styled.p`
   
 }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
