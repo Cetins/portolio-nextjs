@@ -98,10 +98,20 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
-padding:1rem 1.5rem;
+padding:1.5rem 2rem;
 background: #13ADC7;
-border-radius: 2rem;
-width: 10rem;
+border-radius: 3rem;
+transition: 0.5s;
+&:hover{
+  background: #801414;
+}
+`;
+
+export const GitHubLink = styled.a`
+color:#d4c0c0;
+padding: .8rem 1rem;
+background: #945DD6;
+border-radius: 50%;
 transition: 0.5s;
 &:hover{
   background: #945DD6;
