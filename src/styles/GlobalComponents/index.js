@@ -87,6 +87,7 @@ export const SectionDivider = styled.div`
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
+    margin-bottom: 2rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
