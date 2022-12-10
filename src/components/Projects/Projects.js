@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { AiFillGithub } from 'react-icons/ai';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, GitHubLink } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -25,8 +26,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={ visit }>Code</ExternalLinks>
-            <ExternalLinks href={ source }>Source</ExternalLinks>
+            <GitHubLink href={ visit }><AiFillGithub size="3rem" /></GitHubLink>
+            <ExternalLinks href={ source }>Live Preview</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
