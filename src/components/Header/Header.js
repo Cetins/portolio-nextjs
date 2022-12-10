@@ -11,7 +11,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiCssdeck size="3rem"/> <Span>Cetin S</Span>
+          <DiCssdeck size="3rem"/> <Span>Sezen Cetin</Span>
         </a>
       </Link>
     </Div1>
