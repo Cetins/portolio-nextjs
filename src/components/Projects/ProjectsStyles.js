@@ -129,3 +129,7 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+export const TagImage = styled.img`
+height: 3rem;
+`

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { AiFillGithub } from 'react-icons/ai';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, GitHubLink } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TagImage, TitleContent, UtilityList, Img, GitHubLink } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -22,7 +22,7 @@ const Projects = () => (
             <Hr />
             <TagList>
               { tags.map((tag, i) => (
-                <Tag key={i}>{ tag }</Tag>
+                <TagImage key={i} src={tag}/>
               )) }
             </TagList>
           </div>
