@@ -51,9 +51,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'brushbarbers.com first website with WIX', },
+  { year: 2018, text: 'Udemy WordPress', },
+  { year: 2018, text: 'nailsolutionsuk.com first website with WordPress', },
+  { year: 2021, text: "Harvard's Introduction to Computer Science", },
+  { year: 2022, text: 'SQA8 CodeClan Software Development', },
 ];
