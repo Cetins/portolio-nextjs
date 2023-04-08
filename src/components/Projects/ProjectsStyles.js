@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:40rem;
-  height:20rem;
+  height:22.5rem;
   object-fit: cover;
   overflow: hidden;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -27,14 +27,13 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
@@ -110,11 +109,12 @@ transition: 0.5s;
 export const GitHubLink = styled.a`
 color:#d4c0c0;
 padding: .8rem 1rem;
-background: #945DD6;
+background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
 border-radius: 50%;
 transition: 0.5s;
 &:hover{
-  background: #945DD6;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  transition: 0.5s;
 }
 `;
 
@@ -128,6 +128,7 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+font-weight: bold;
 `
 
 export const TagImage = styled.img`
