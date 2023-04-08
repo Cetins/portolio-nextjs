@@ -78,8 +78,8 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
-  height: 6px;
+  width: 20rem;
+  height: .5rem;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
@@ -87,7 +87,7 @@ export const SectionDivider = styled.div`
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
