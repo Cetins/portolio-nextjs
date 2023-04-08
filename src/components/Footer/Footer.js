@@ -8,18 +8,14 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        {/* <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:12123123'>12123123</LinkItem>
-        </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:devsolutionsuk@gmail.com'>devsolutionsuk@gmail.com</LinkItem>
+          <LinkItem href='mailto:devsolutionsuk@gmail.com'>cetinsdev@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Runs with coffee, driven by puzzles, requires challange</Slogan>
+          <Slogan>Runs with coffee, driven by puzzles, requires challenge</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href='https://github.com/Cetins'>
