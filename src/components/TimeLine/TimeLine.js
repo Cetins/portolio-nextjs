@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Morbi sit amet mattis erat. Donec sit amet viverra tellus, at aliquam diam. Morbi aliquam magna ac pretium commodo. Fusce semper consequat fringilla. Nam efficitur vel mauris et sagittis. Vestibulum non est turpis.
+        Proud CS50 and CodeClan Graduate, equipped with strong programming skills and gifted in grasping new concepts.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
