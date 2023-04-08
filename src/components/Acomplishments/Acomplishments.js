@@ -5,9 +5,9 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: 39, text: 'Total Stars Earned'},
-  { number: 739, text: 'Total Commits (2022)', },
-  { number: 79, text: 'Total PRs', },
-  { number: 6, text: 'Projects Contributed', }
+  { number: 897, text: 'Total Commits (2023)', },
+  { number: 101, text: 'Total PRs', },
+  { number: 3, text: 'Projects Contributed', }
 ];
 
 // use this section for github stats !!!
