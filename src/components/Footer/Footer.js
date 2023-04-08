@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillMediumCircle, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -9,27 +9,23 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:12123123'>12123123</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:devsolutionsuk@gmail.com'>devsolutionsuk@gmail.com</LinkItem>
+          <LinkItem href='mailto:devsolutionsuk@gmail.com'>cetinsdev@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Runs with coffee, driven by puzzles, requires challenge</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com'>
+          <SocialIcons href='https://github.com/Cetins'>
             <AiFillGithub size="3rem"/>
           </SocialIcons>
-          <SocialIcons href='https://linkedin.com'>
+          <SocialIcons href='https://linkedin.com/in/cetins'>
             <AiFillLinkedin size="3rem"/>
           </SocialIcons>
-          <SocialIcons href='https://instagram.com'>
-            <AiFillInstagram size="3rem"/>
+          <SocialIcons href='https://medium.com/@cetins'>
+            <AiFillMediumCircle size="3rem"/>
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
